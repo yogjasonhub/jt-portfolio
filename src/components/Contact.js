@@ -10,7 +10,7 @@ const Contact = () => {
     <section 
       ref={contactRef}
       id="contact" 
-      className="bg-surface-light dark:bg-surface-dark bg-fixed bg-center bg-no-repeat bg-cover py-16 px-8 text-center"
+      className="bg-surface-light dark:bg-surface-dark rounded-lg shadow-md max-w-4xl mx-auto my-16 py-12 px-8 text-center"
     >
       <h2 className="text-3xl mb-8 text-text-light dark:text-text-dark">Contact Me</h2>
       <div className="flex flex-col items-center max-w-3xl mx-auto">
