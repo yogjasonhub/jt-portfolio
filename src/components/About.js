@@ -14,13 +14,13 @@ const About = () => {
         <h2 className="text-3xl mb-6 text-text-light dark:text-text-dark">About Me</h2>
         <p className="text-lg text-textSecondary-light dark:text-textSecondary-dark">
         I am an adaptable engineer who thrives on new challenges and learning opportunities. 
-        Currently focused on development with .NET and React, I am proactively open to learning new 
-        technologies for team and personal growth. I consistently contribute as both a team player 
-        and a leader, earning the trust of my managers and peers through proven capabilities 
-        and a resilient mindset. 
-        </p>
-        <p className="text-lg text-textSecondary-light dark:text-textSecondary-dark">
-        My ultimate goal is to continuously grow as a software engineer, and one day mentor those behind me.
+        Currently focused on development with .NET and React, I am open to learning new 
+        technologies for team and personal growth. 
+        <br /> 
+        I contribute as both a team player and leader, earning the trust of my managers and 
+        peers through proven capabilities and a resilient mindset. 
+        <br/>
+        I continuously grow professionally as a software engineer, and enjoy mentoring junior engineers.
         </p>
       </div>
     </section>
