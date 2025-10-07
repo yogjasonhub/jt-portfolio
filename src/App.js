@@ -17,21 +17,21 @@ function MainContent() {
       
       <section 
         id="home" 
-        className="flex flex-row items-center p-8 md:p-16 min-h-[80vh] max-w-7xl mx-auto bg-surface-light dark:bg-surface-dark"
+        className="flex flex-col md:flex-row items-center p-6 md:p-16 min-h-[80vh] max-w-7xl mx-auto bg-surface-light dark:bg-surface-dark"
       >
-        <div className="flex-1 pr-8">
-          <h1 className="text-4xl mb-4 text-text-light dark:text-text-dark font-bold">
+        <div className="w-full md:flex-1 md:pr-8 text-center md:text-left mb-8 md:mb-0">
+          <h1 className="text-3xl md:text-4xl mb-4 text-text-light dark:text-text-dark font-bold">
             Welcome to my page!
           </h1>
-          <p className="text-xl text-textSecondary-light dark:text-textSecondary-dark">
+          <p className="text-lg md:text-xl text-textSecondary-light dark:text-textSecondary-dark">
             I'm <b>Jason Thao</b>, a Software Engineer currently at Community Care, Inc.
           </p>
         </div>
-        <div className="flex-1 flex justify-center">
+        <div className="w-full md:flex-1 flex justify-center">
           <img 
             src={headshotImage} 
             alt="Profile headshot"
-            className="w-[400px] h-[400px] object-cover rounded-full object-top"
+            className="w-[250px] h-[250px] md:w-[400px] md:h-[400px] object-cover rounded-full object-top"
           />
         </div>
       </section>
