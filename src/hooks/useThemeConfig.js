@@ -1,4 +1,5 @@
-export const themeConfig = {
+// Theme configuration values and design tokens
+export const useThemeConfig = {
   spacing: {
     xs: '0.25rem',
     sm: '0.5rem',

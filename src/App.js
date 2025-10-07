@@ -1,5 +1,5 @@
 import './App.css';
-import { ThemeProvider } from './theme/ThemeContext';
+import { ThemeProvider } from './hooks/useTheme';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';

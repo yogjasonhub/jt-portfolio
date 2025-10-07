@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { useTheme } from '../theme/ThemeContext';
+import { useTheme } from '../hooks/useTheme';
 import { useScrollDirection } from '../hooks/useScrollDirection';
 import circuitLogo from '../assets/logos/circuit-cream-JT.png';
 
@@ -25,7 +25,7 @@ const Navbar = () => {
             to="home"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-150}
             duration={500}
             className="cursor-pointer"
           >
