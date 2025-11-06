@@ -4,6 +4,7 @@ import mysqlIcon from '../assets/logos/mysql.svg';
 import azureIcon from '../assets/logos/azure.svg';
 import tailwindIcon from '../assets/logos/tailwindcss.svg';
 import htmlIcon from '../assets/logos/html5.svg';
+import brunoIcon from '../assets/logos/bruno.png';
 import useScrollReveal from '../hooks/useScrollReveal';
 
 const SkillCard = ({ icon, name, isVisible, delay }) => {
@@ -45,8 +46,8 @@ const Skills = () => {
     { icon: reactIcon, name: 'React' },
     { icon: tailwindIcon, name: 'TailwindCSS' },
     { icon: htmlIcon, name: 'HTML' },
-
     { icon: mysqlIcon, name: 'MySQL' },
+    { icon: brunoIcon, name: 'Bruno' },
     { icon: azureIcon, name: 'Azure' },
   ];
 
