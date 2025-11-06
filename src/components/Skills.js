@@ -89,7 +89,7 @@ const Skills = () => {
         <h2 className="text-3xl text-text-light dark:text-text-dark text-center mb-12">
           Skills
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-12 justify-items-center items-center max-w-3xl mx-auto">
+        <div className="flex flex-wrap justify-center items-center gap-12 max-w-3xl mx-auto">
           {skillsList.map((skill, index) => (
             <SkillCard
               key={index}
