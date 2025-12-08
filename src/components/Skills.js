@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import reactIcon from '../assets/logos/react.svg';
-import mysqlIcon from '../assets/logos/mysql.svg';
 import azureIcon from '../assets/logos/azuredevops.svg';
 import tailwindIcon from '../assets/logos/tailwindcss.svg';
 import htmlIcon from '../assets/logos/html5.svg';
 import brunoIcon from '../assets/logos/bruno.png';
-import pythonIcon from '../assets/logos/python.svg';
 import gitbashIcon from '../assets/logos/gitbash.svg';
 import githubIcon from '../assets/logos/github.svg';
 import netcoreIcon from '../assets/logos/.netcore.svg';
@@ -51,10 +49,8 @@ const Skills = () => {
   const skillsList = [
     { icon: reactIcon, name: 'React' },
     { icon: csharpIcon, name: 'C#' },
-    { icon: pythonIcon, name: 'Python' },
     { icon: tailwindIcon, name: 'TailwindCSS' },
     { icon: htmlIcon, name: 'HTML' },
-    { icon: mysqlIcon, name: 'MySQL' },
     { icon: brunoIcon, name: 'Bruno' },
     { icon: gitbashIcon, name: 'Git Bash' },
     { icon: githubIcon, name: 'GitHub' },
