@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react';
 import reactIcon from '../assets/logos/react.svg';
 import azureIcon from '../assets/logos/azuredevops.svg';
 import tailwindIcon from '../assets/logos/tailwindcss.svg';
-import htmlIcon from '../assets/logos/html5.svg';
 import brunoIcon from '../assets/logos/bruno.png';
-import gitbashIcon from '../assets/logos/gitbash.svg';
+import postgreSQLIcon from '../assets/logos/postgreSQL.svg';
 import githubIcon from '../assets/logos/github.svg';
 import netcoreIcon from '../assets/logos/.netcore.svg';
 import csharpIcon from '../assets/logos/csharp.svg';
@@ -47,12 +46,11 @@ const SkillCard = ({ icon, name, isVisible, delay }) => {
 
 const Skills = () => {
   const skillsList = [
-    { icon: reactIcon, name: 'React' },
+    { icon: reactIcon, name: 'Reactjs' },
     { icon: csharpIcon, name: 'C#' },
     { icon: tailwindIcon, name: 'TailwindCSS' },
-    { icon: htmlIcon, name: 'HTML' },
+    { icon: postgreSQLIcon, name: 'PostgreSQL' },
     { icon: brunoIcon, name: 'Bruno' },
-    { icon: gitbashIcon, name: 'Git Bash' },
     { icon: githubIcon, name: 'GitHub' },
     { icon: netcoreIcon, name: '.NET Core' },
     { icon: azureIcon, name: 'Azure DevOps' },
