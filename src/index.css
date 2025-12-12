@@ -1,8 +1,8 @@
-/* eslint-disable */
+/* stylelint-disable at-rule-no-unknown */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* eslint-enable */
+/* stylelint-enable at-rule-no-unknown */
 
 @layer base {
   body {
