@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Card from './Card';
 import reactIcon from '../assets/logos/react.svg';
 import azureIcon from '../assets/logos/azuredevops.svg';
 import tailwindIcon from '../assets/logos/tailwindcss.svg';
@@ -86,28 +87,24 @@ const Skills = () => {
   }, [sectionRef]);
 
   return (
-    <section
-      ref={sectionRef}
+    <Card
+      title="Skills"
+      cardRef={sectionRef}
       id="skills"
-      className="bg-background-light dark:bg-background-dark py-16 px-8"
+      className="bg-background-light dark:bg-background-dark py-16 px-8 rounded-none shadow-none"
     >
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl text-text-light dark:text-text-dark text-center mb-12">
-          Skills
-        </h2>
-        <div className="flex flex-wrap justify-center items-center gap-12 max-w-3xl mx-auto">
-          {skillsList.map((skill, index) => (
-            <SkillCard
-              key={index}
-              icon={skill.icon}
-              name={skill.name}
-              isVisible={isVisible}
-              delay={index * 150} // 150ms delay between each icon
-            />
-          ))}
-        </div>
+      <div className="flex flex-wrap justify-center items-center gap-12 max-w-3xl mx-auto w-full">
+        {skillsList.map((skill, index) => (
+          <SkillCard
+            key={index}
+            icon={skill.icon}
+            name={skill.name}
+            isVisible={isVisible}
+            delay={index * 150} // 150ms delay between each icon
+          />
+        ))}
       </div>
-    </section>
+    </Card>
   );
 };
 
